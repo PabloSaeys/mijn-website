@@ -8,3 +8,11 @@ html, body {
   height: 100%;
   width: 100%;
 }
+a, a:hover {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.container-bg {
+  color: #3e5421;
+}
