@@ -1,0 +1,10 @@
+html, body {
+  box-sizing: border-box;
+  background-color: #2A3817;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #113743;
+  height: 100%;
+  width: 100%;
+}
