@@ -16,6 +16,18 @@ a, a:hover {
 .navbar {
   background-color: #2d2926;
 }
-.OGeel {
-    color: #f0b11b;
+.border{
+  border-color:#f0b11b;
+}
+.OGeel{
+  color:#f0b11b;
+}
+.blackbg {
+  background-color: #2d2926;
+}
+aside{
+  border-radius: 5%;
+}
+.rounded {
+  border-radius: 5%;
 }
