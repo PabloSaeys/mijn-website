@@ -1,0 +1,10 @@
+#apMap {
+    /* neem de volle breedte in van het parent element */
+    width: 100%;
+    height: 250px;
+}
+
+#mapP1 {
+    height: 250px;
+    width: 100%;
+}
