@@ -44,22 +44,51 @@
                 <a class="nav-link OGeel" href="contact.html">Contact</a>
             </li>
         </ul>
-        </div>
-        
+        </div>  
     </nav>
+
+
     <div class="container-fluid">
         <div class="row">
             <article class="blackbg my-5 border-top border-bottom border-warning container container-fluid">
                 <div class="row">
-                    <h3 class="text-uppercase fw-bolder">contact</h3>
-                    <ul>
-                        <li>e-mail: <a href="#">saeys.pablo@gmail.com</a></li>
-                        <li>school e-mail <a href="#">pablo.saeys@student.ap.be</a></li>
-                        <li>gsm nummer: <a href="#"> 0487 78 59 58</a></li>
-                        <li>adres: <a href="#">niet gegeven</a></li>
-                    </ul>
+                    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                        <fieldset class="row g-2 mb-2">
+                            <legend class="text-uppercase fs-6 fw-bolder pt-3">gegevens</legend>
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">voornaam <span>*</span></label>
+                                <input type="text" class="form-control" id="firstName" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">achternaam <span>*</span></label>
+                                <input type="text" class="form-control" id="lastName" required>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-group col-12 g-2 mb-2">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group col-12 g-2 mb-2">
+                        <label for="subject">Subject:</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group col-12 g-2 mb-2">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" rows="10" id="message" name="message" required></textarea>
+                        </div>
+
+                        <div class="form-group ">
+                        <div data-netlify-recaptcha="true"></div>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
                 </div>
             </article>
+            
         </div> 
     </div>  
     <footer class="blackbg  border-top border-warning ">
