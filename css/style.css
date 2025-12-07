@@ -37,6 +37,10 @@ a, a:hover {
   background-color: #f0b11b;
   color: #000;
 }
+.thick-hr {
+  border: none;  
+  border-top: 3px solid #f0b11b;                
+}
 .blackbg {
   background-color: #2d2926;
 }
